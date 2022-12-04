@@ -2,7 +2,7 @@
 
 This project utilizes Kubernetes to deploy a containerized web app with Amazon EKS and AWS CloudFormation. 
 
-Link to Medium.com article that I published a tutorial based on this project: https://medium.com/p/cff46b41b8ef/edit
+Link to Medium.com article that I published a tutorial based on this project: how-to-deploy-a-containerized-web-app-in-a-kubernetes-cluster-using-amazon-eks-cff46b41b8ef
 
 Note to self: After finished creating app and EKS cluster and your AWS enviroment and CDK infrastructure has been fully set up:
 
