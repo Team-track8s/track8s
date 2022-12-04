@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cdk8s-deployment-c8087a1b
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cdk8s
+  template:
+    metadata:
+      labels:
+        app: cdk8s
+    spec:
+      containers:
+        - image: public.ecr.aws/s9u7u6x1/sample_app_001:no-db
+          name: cdk8s
+          ports:
+            - containerPort: 80
