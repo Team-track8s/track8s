@@ -1,6 +1,6 @@
 # kube8
 
-This project utilizes Kubernetes to deploy a containerized web app with Amazon EKS and AWS CloudFormation. 
+This open source project utilizes Kubernetes to deploy a containerized job search web application and tracking tool with Amazon EKS and AWS CloudFormation. 
 
 Link to Medium.com article that I published a tutorial based on this project: how-to-deploy-a-containerized-web-app-in-a-kubernetes-cluster-using-amazon-eks-cff46b41b8ef
 
