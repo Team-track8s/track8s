@@ -38,5 +38,6 @@ class ClusterStack(Stack):
             service_yaml = yaml.load(stream, Loader=yaml.FullLoader)
 
         # Pass the YAML files to the cluster using the add_manifest method to apply the service and deployment Kubernetes manifests to the cluster
+
         eks_cluster.add_manifest(f"{construct_id}-app-deployment", deployment_yaml)
         eks_cluster.add_manifest(f"{construct_id}-app-service", service_yaml)
