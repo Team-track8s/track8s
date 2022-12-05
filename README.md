@@ -1,4 +1,4 @@
-# kube8
+# track8s
 
 This open source project utilizes Kubernetes to deploy a containerized job search web application and tracking tool with Amazon EKS and AWS CloudFormation. 
 
